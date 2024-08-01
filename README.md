@@ -1,2 +1,2 @@
 # raggedy-ann
-![alt text](raggedy-ann.png "Title")
+![alt text](raggedy-ann.jpg "Title")
