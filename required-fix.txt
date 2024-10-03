@@ -1,0 +1,2 @@
+fix for scaled_rope issue here https://github.com/meta-llama/llama3/issues/291
+delete scale_rope in params.json file¶
