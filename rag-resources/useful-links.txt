@@ -1,0 +1,2 @@
+Good ideas on RAG here
+- https://github.com/simonw/til/blob/main/llms/colbert-ragatouille.md
