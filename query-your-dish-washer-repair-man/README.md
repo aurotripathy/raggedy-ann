@@ -6,4 +6,6 @@ Data is scraped from a [dish repair mannual found on the web](https://www.applia
 
 Copyright note for the content: Copyright © 2005 - EB Publishing Inc. All Rights Reserved.
 
-Finally, a comparision of two search method methods: (1) naive nearest-neightbour search vs (2) hnswlib-based approximate nearest-neightbour (ANN) search (in log(n) time) at [ANN-with-hnswlib notebook](./hnswlib-app/ANN-with-hnswlib.ipynb)
+Finally, a comparision of two search method methods: 
+1. naive nearest-neightbour search vs
+2. hnswlib-based approximate nearest-neightbour (ANN) search (in log(n) time) at [ANN-with-hnswlib notebook](./hnswlib-app/ANN-with-hnswlib.ipynb)
