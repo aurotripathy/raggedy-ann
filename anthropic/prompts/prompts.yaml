@@ -1,0 +1,23 @@
+- prompt: |
+    You have been tasked with helping us to answer the following query: 
+    <query>
+    {query}
+    </query>
+    You have access to the following documents which are meant to provide context as you answer the query:
+    <documents>
+    {context}
+    </documents>
+    Please remain faithful to the underlying context, and only deviate from it if you are 100% sure that you know the answer already. 
+    Answer the question now, and avoid providing preamble such as 'Here is the answer', etc
+- prompt: |
+    You have been tasked with helping us to answer the following query: 
+    <query>
+    {query}
+    </query>
+    You have access to the following documents which are meant to provide context as you answer the query:
+    <documents>
+    {context}
+    </documents>
+    Please remain absolutely faithful to the underlying context, and do not deviate from it at all.
+    If you do not find the answer, say, "The context does not have the answer," 
+    Answer the question now, and avoid providing preamble such as 'Here is the answer', etc
