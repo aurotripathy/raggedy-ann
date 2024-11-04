@@ -5340,3 +5340,580 @@
 20:23:17,824 root INFO Question 100/100: When using the Python SDK to create a message with Claude, what are two ways you can specify your API key?
 20:23:17,824 root INFO Correct: False
 20:23:17,824 root INFO ---
+23:14:26,872 sentence_transformers.SentenceTransformer INFO Use pytorch device_name: cuda
+23:14:26,872 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: intfloat/multilingual-e5-large-instruct
+23:16:13,850 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:29,894 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:31,123 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:31,126 root INFO Question 1/100: How can you create multiple test cases for an evaluation in the Anthropic Evaluation tool?
+23:16:31,126 root INFO Correct: False
+23:16:31,126 root INFO ---
+23:16:31,856 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:33,1 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:33,4 root INFO Question 2/100: What embeddings provider does Anthropic recommend for customized domain-specific models, and what capabilities does this provider offer?
+23:16:33,4 root INFO Correct: False
+23:16:33,4 root INFO ---
+23:16:33,900 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:35,227 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:35,230 root INFO Question 3/100: What are some key success metrics to consider when evaluating Claude's performance on a classification task, and how do they relate to choosing the right model to reduce latency?
+23:16:35,230 root INFO Correct: False
+23:16:35,230 root INFO ---
+23:16:35,898 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:37,76 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:37,79 root INFO Question 4/100: What are two ways that Claude for Sheets can improve prompt engineering workflows compared to using chained prompts?
+23:16:37,79 root INFO Correct: False
+23:16:37,79 root INFO ---
+23:16:37,777 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:38,902 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:38,905 root INFO Question 5/100: What happens if a prompt for the Text Completions API is missing the "\n\nHuman:" and "\n\nAssistant:" turns?
+23:16:38,905 root INFO Correct: False
+23:16:38,906 root INFO ---
+23:16:39,606 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:40,892 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:40,894 root INFO Question 6/100: How do the additional tokens required for tool use in Claude API requests impact pricing compared to regular API requests?
+23:16:40,895 root INFO Correct: False
+23:16:40,895 root INFO ---
+23:16:41,875 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:42,876 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:42,878 root INFO Question 7/100: When will the new Anthropic Developer Console features that show API usage, billing details, and rate limits be available?
+23:16:42,878 root INFO Correct: False
+23:16:42,878 root INFO ---
+23:16:43,618 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:44,893 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:44,895 root INFO Question 8/100: When deciding whether to use chain-of-thought (CoT) for a task, what are two key factors to consider in order to strike the right balance between performance and latency?
+23:16:44,896 root INFO Correct: False
+23:16:44,896 root INFO ---
+23:16:45,663 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:46,931 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:46,933 root INFO Question 9/100: How can I use Claude to more easily digest the content of long PDF documents?
+23:16:46,934 root INFO Correct: False
+23:16:46,934 root INFO ---
+23:16:47,643 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:49,239 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:49,241 root INFO Question 10/100: According to the documentation, where can you view your organization's current API rate limits in the Anthropic Console?
+23:16:49,241 root INFO Correct: False
+23:16:49,242 root INFO ---
+23:16:49,940 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:51,337 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:51,339 root INFO Question 11/100: How can we measure the performance of the ticket classification system implemented using Claude beyond just accuracy?
+23:16:51,339 root INFO Correct: False
+23:16:51,340 root INFO ---
+23:16:52,226 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:53,381 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:53,383 root INFO Question 12/100: How can you specify a system prompt using the Text Completions API versus the Messages API?
+23:16:53,383 root INFO Correct: False
+23:16:53,384 root INFO ---
+23:16:54,211 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:56,28 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:56,30 root ERROR XML parsing error: mismatched tag: line 3, column 484
+23:16:56,720 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:58,316 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:58,319 root INFO Question 14/100: When evaluating the Claude model's performance for ticket routing, what three key metrics are calculated and what are the results for the claude-3-haiku-20240307 model on the 91 test samples?
+23:16:58,319 root INFO Correct: False
+23:16:58,319 root INFO ---
+23:16:59,53 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:49:18,970 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:50:18,656 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:50:44,883 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:50:50,747 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:53:02,945 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:54:35,807 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:56:39,883 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:57:50,807 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:58:29,766 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:24,13 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:25,581 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:25,583 root INFO Question 1/100: How can you create multiple test cases for an evaluation in the Anthropic Evaluation tool?
+23:59:25,583 root INFO Correct: True
+23:59:25,583 root INFO ---
+23:59:27,3 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:28,400 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:28,403 root INFO Question 2/100: What embeddings provider does Anthropic recommend for customized domain-specific models, and what capabilities does this provider offer?
+23:59:28,403 root INFO Correct: True
+23:59:28,403 root INFO ---
+23:59:31,172 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:32,804 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:32,807 root INFO Question 3/100: What are some key success metrics to consider when evaluating Claude's performance on a classification task, and how do they relate to choosing the right model to reduce latency?
+23:59:32,807 root INFO Correct: True
+23:59:32,808 root INFO ---
+23:59:34,615 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:36,147 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:36,150 root INFO Question 4/100: What are two ways that Claude for Sheets can improve prompt engineering workflows compared to using chained prompts?
+23:59:36,150 root INFO Correct: False
+23:59:36,151 root INFO ---
+23:59:37,135 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:38,433 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:38,435 root INFO Question 5/100: What happens if a prompt for the Text Completions API is missing the "\n\nHuman:" and "\n\nAssistant:" turns?
+23:59:38,435 root INFO Correct: True
+23:59:38,436 root INFO ---
+23:59:40,864 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:42,243 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:42,245 root INFO Question 6/100: How do the additional tokens required for tool use in Claude API requests impact pricing compared to regular API requests?
+23:59:42,246 root INFO Correct: True
+23:59:42,246 root INFO ---
+23:59:42,821 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:43,900 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:43,902 root INFO Question 7/100: When will the new Anthropic Developer Console features that show API usage, billing details, and rate limits be available?
+23:59:43,902 root INFO Correct: True
+23:59:43,903 root INFO ---
+23:59:46,209 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:47,678 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:47,680 root INFO Question 8/100: When deciding whether to use chain-of-thought (CoT) for a task, what are two key factors to consider in order to strike the right balance between performance and latency?
+23:59:47,681 root INFO Correct: True
+23:59:47,681 root INFO ---
+23:59:50,523 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:51,810 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:51,813 root INFO Question 9/100: How can I use Claude to more easily digest the content of long PDF documents?
+23:59:51,813 root INFO Correct: True
+23:59:51,814 root INFO ---
+23:59:52,366 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:53,544 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:53,548 root INFO Question 10/100: According to the documentation, where can you view your organization's current API rate limits in the Anthropic Console?
+23:59:53,548 root INFO Correct: True
+23:59:53,548 root INFO ---
+23:59:57,941 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:59,901 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:59:59,904 root INFO Question 11/100: How can we measure the performance of the ticket classification system implemented using Claude beyond just accuracy?
+23:59:59,904 root INFO Correct: False
+23:59:59,905 root INFO ---
+00:00:02,34 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:03,255 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:03,258 root INFO Question 12/100: How can you specify a system prompt using the Text Completions API versus the Messages API?
+00:00:03,258 root INFO Correct: True
+00:00:03,259 root INFO ---
+00:00:08,722 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:10,618 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:10,621 root ERROR XML parsing error: mismatched tag: line 3, column 666
+00:00:12,306 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:14,277 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:14,280 root INFO Question 14/100: When evaluating the Claude model's performance for ticket routing, what three key metrics are calculated and what are the results for the claude-3-haiku-20240307 model on the 91 test samples?
+00:00:14,280 root INFO Correct: False
+00:00:14,281 root INFO ---
+00:00:15,434 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:16,917 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:16,920 root INFO Question 15/100: Before starting to engineer and improve a prompt in Claude, what key things does Anthropic recommend you have in place first?
+00:00:16,920 root INFO Correct: True
+00:00:16,920 root INFO ---
+00:00:19,913 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:23,45 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:23,47 root INFO Question 16/100: How does the Messages API handle mid-response prompting compared to the Text Completions API?
+00:00:23,48 root INFO Correct: True
+00:00:23,48 root INFO ---
+00:00:25,288 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:27,64 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:27,66 root INFO Question 17/100: How does Claude's response differ when given a role through a system prompt compared to not having a specific role in the financial analysis example?
+00:00:27,67 root INFO Correct: True
+00:00:27,67 root INFO ---
+00:00:37,26 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:40,154 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:40,157 root INFO Question 18/100: What are some quantitative metrics that can be used to measure the success of a sentiment analysis model, and how might specific targets for those metrics be determined?
+00:00:40,157 root INFO Correct: True
+00:00:40,158 root INFO ---
+00:00:40,886 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:42,67 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:42,70 root INFO Question 19/100: What is a power user tip mentioned in the documentation for creating high-performance prompts using XML tags?
+00:00:42,70 root INFO Correct: True
+00:00:42,70 root INFO ---
+00:00:49,56 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:51,77 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:51,80 root INFO Question 20/100: How can you use an LLM like Claude to automatically grade the outputs of other LLMs based on a rubric?
+00:00:51,80 root INFO Correct: True
+00:00:51,80 root INFO ---
+00:00:56,253 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:58,20 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:00:58,23 root INFO Question 21/100: How can you access and deploy Voyage embeddings on AWS Marketplace?
+00:00:58,23 root INFO Correct: True
+00:00:58,24 root INFO ---
+00:01:01,817 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:03,618 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:03,621 root INFO Question 22/100: When using tools just to get Claude to produce JSON output following a particular schema, what key things should you do in terms of tool setup and prompting?
+00:01:03,621 root INFO Correct: False
+00:01:03,621 root INFO ---
+00:01:08,813 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:10,108 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:10,111 root INFO Question 23/100: What are the key differences between the legacy Claude Instant 1.2 model and the Claude 3 Haiku model in terms of capabilities and performance?
+00:01:10,111 root INFO Correct: True
+00:01:10,112 root INFO ---
+00:01:10,779 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:11,847 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:11,849 root INFO Question 24/100: What is one key benefit of using examples when prompt engineering with Claude?
+00:01:11,849 root INFO Correct: True
+00:01:11,849 root INFO ---
+00:01:12,669 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:14,226 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:14,228 root INFO Question 25/100: According to the Anthropic documentation, what is one key advantage of using prompt engineering instead of fine-tuning when it comes to adapting an AI model to new domains or tasks?
+00:01:14,228 root INFO Correct: False
+00:01:14,229 root INFO ---
+00:01:15,619 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:16,935 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:16,938 root INFO Question 26/100: How can I quickly get started using the Claude for Sheets extension with a pre-made template?
+00:01:16,938 root INFO Correct: True
+00:01:16,938 root INFO ---
+00:01:18,615 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:20,729 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:20,732 root INFO Question 27/100: How does the "index" field in the "content_block_delta" event relate to the text being streamed in a response?
+00:01:20,732 root INFO Correct: True
+00:01:20,733 root INFO ---
+00:01:22,542 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:24,402 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:24,405 root INFO Question 28/100: How can you include an image as part of a Claude API request, and what image formats are currently supported?
+00:01:24,405 root INFO Correct: False
+00:01:24,405 root INFO ---
+00:01:26,836 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:28,677 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:28,679 root INFO Question 29/100: What is the relationship between time to first token (TTFT) and latency when evaluating a language model's performance?
+00:01:28,679 root INFO Correct: True
+00:01:28,680 root INFO ---
+00:01:33,850 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:35,61 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:35,63 root INFO Question 30/100: How can providing Claude with examples of handling certain edge cases like implicit requests or emotional prioritization help improve its performance in routing support tickets?
+00:01:35,63 root INFO Correct: True
+00:01:35,64 root INFO ---
+00:01:38,231 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:40,202 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:40,204 root INFO Question 31/100: How does the stop_reason of "tool_use" relate to the overall workflow of integrating external tools with Claude?
+00:01:40,205 root INFO Correct: True
+00:01:40,205 root INFO ---
+00:01:41,89 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:42,676 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:42,678 root INFO Question 32/100: According to the documentation, what error event and corresponding HTTP error code may be sent during periods of high usage for the Anthropic API when using streaming responses?
+00:01:42,678 root INFO Correct: True
+00:01:42,679 root INFO ---
+00:01:43,877 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:44,938 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:44,940 root INFO Question 33/100: What are the two types of deltas that can be contained in a content_block_delta event when streaming responses from the Anthropic API?
+00:01:44,941 root INFO Correct: False
+00:01:44,941 root INFO ---
+00:01:45,626 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:47,322 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:47,324 root INFO Question 34/100: On what date did Claude 3.5 Sonnet and tool use both become generally available across the Anthropic API, Amazon Bedrock, and Google Vertex AI?
+00:01:47,324 root INFO Correct: False
+00:01:47,325 root INFO ---
+00:01:48,49 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:49,363 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:49,365 root INFO Question 35/100: In what order did Anthropic launch Claude.ai and the Claude iOS app in Canada and Europe?
+00:01:49,366 root INFO Correct: True
+00:01:49,366 root INFO ---
+00:01:52,424 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:53,937 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:53,939 root INFO Question 36/100: When the API response from Claude has a stop_reason of "tool_use", what does this indicate and what should be done next to continue the conversation?
+00:01:53,940 root INFO Correct: True
+00:01:53,940 root INFO ---
+00:01:54,825 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:56,160 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:56,163 root INFO Question 37/100: What Python libraries are used in the example code snippet for evaluating tone and style in a customer service chatbot?
+00:01:56,164 root INFO Correct: True
+00:01:56,164 root INFO ---
+00:01:57,374 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:59,30 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:01:59,32 root INFO Question 38/100: What are the two main ways to authenticate when using the Anthropic Python SDK to access Claude models on Amazon Bedrock?
+00:01:59,33 root INFO Correct: True
+00:01:59,33 root INFO ---
+00:02:00,670 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:02,130 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:02,132 root INFO Question 39/100: When deciding whether to implement leak-resistant prompt engineering strategies, what two factors should be considered and balanced?
+00:02:02,133 root INFO Correct: True
+00:02:02,133 root INFO ---
+00:02:04,2 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:05,385 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:05,387 root INFO Question 40/100: How can selecting the appropriate Claude model based on your specific requirements help reduce latency in your application?
+00:02:05,387 root INFO Correct: True
+00:02:05,388 root INFO ---
+00:02:07,778 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:09,37 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:09,39 root INFO Question 41/100: How can you stream responses from the Anthropic API using the Python SDK?
+00:02:09,39 root INFO Correct: True
+00:02:09,40 root INFO ---
+00:02:10,316 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:11,986 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:11,989 root INFO Question 42/100: How can you guide Claude's response by pre-filling part of the response, and what API parameter is used to generate a short response in this case?
+00:02:11,989 root INFO Correct: False
+00:02:11,989 root INFO ---
+00:02:13,501 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:14,732 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:14,734 root INFO Question 43/100: What is more important when building an eval set for an AI system - having a larger number of test cases with automated grading, or having fewer high-quality test cases graded by humans?
+00:02:14,734 root INFO Correct: True
+00:02:14,735 root INFO ---
+00:02:15,761 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:17,562 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:17,564 root INFO Question 44/100: What are the two required fields in a content_block_delta event for a text delta type?
+00:02:17,565 root INFO Correct: True
+00:02:17,565 root INFO ---
+00:02:19,76 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:20,536 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:20,538 root INFO Question 45/100: What are two interactive ways to learn how to use Claude's capabilities, such as uploading PDFs and generating embeddings?
+00:02:20,539 root INFO Correct: False
+00:02:20,539 root INFO ---
+00:02:23,571 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:25,145 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:25,147 root INFO Question 46/100: Why does breaking a task into distinct subtasks for chained prompts help improve Claude's accuracy on the overall task?
+00:02:25,148 root INFO Correct: True
+00:02:25,148 root INFO ---
+00:02:28,508 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:29,774 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:29,776 root INFO Question 47/100: How does the streaming format for Messages responses differ from Text Completions streaming responses?
+00:02:29,777 root INFO Correct: True
+00:02:29,777 root INFO ---
+00:02:30,982 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:32,771 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:32,774 root INFO Question 48/100: What are two ways to start experimenting with Claude as a user, according to Anthropic's documentation?
+00:02:32,774 root INFO Correct: False
+00:02:32,774 root INFO ---
+00:02:35,652 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:37,333 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:37,335 root INFO Question 49/100: How can using chain prompts help reduce errors and inconsistency in complex tasks handled by Claude?
+00:02:37,335 root INFO Correct: True
+00:02:37,336 root INFO ---
+00:02:37,873 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:39,19 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:39,22 root INFO Question 50/100: What HTTP status code does an overloaded_error event correspond to in a non-streaming context for the Anthropic API?
+00:02:39,22 root INFO Correct: True
+00:02:39,22 root INFO ---
+00:02:39,878 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:41,362 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:41,364 root INFO Question 51/100: What are the two ways to specify the format in which Voyage AI returns embeddings through its HTTP API?
+00:02:41,364 root INFO Correct: True
+00:02:41,365 root INFO ---
+00:02:44,798 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:46,872 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:46,875 root INFO Question 52/100: When streaming API requests that use tools, how are the input JSON deltas for tool_use content blocks sent, and how can they be accumulated and parsed by the client?
+00:02:46,875 root INFO Correct: True
+00:02:46,875 root INFO ---
+00:02:48,514 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:49,833 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:49,835 root INFO Question 53/100: What are the two interactive prompt engineering tutorials that Anthropic offers, and how do they differ?
+00:02:49,835 root INFO Correct: False
+00:02:49,836 root INFO ---
+00:02:56,596 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:58,583 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:02:58,586 root INFO Question 54/100: What are some of the key capabilities that make Claude suitable for enterprise use cases requiring integration with specialized applications and processing of large volumes of sensitive data?
+00:02:58,586 root INFO Correct: True
+00:02:58,587 root INFO ---
+00:02:59,136 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:00,451 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:00,453 root INFO Question 55/100: As of June 2024, in which regions are Anthropic's Claude.ai API and iOS app available?
+00:03:00,454 root INFO Correct: False
+00:03:00,454 root INFO ---
+00:03:02,730 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:04,243 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:04,246 root INFO Question 56/100: What are the two main approaches for integrating Claude into a support ticket workflow, and how do they differ in terms of scalability and ease of implementation?
+00:03:04,246 root INFO Correct: True
+00:03:04,247 root INFO ---
+00:03:05,65 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:06,320 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:06,322 root INFO Question 57/100: When did Anthropic release a prompt generator tool to help guide Claude in generating high-quality prompts, and through what interface is it available?
+00:03:06,323 root INFO Correct: False
+00:03:06,323 root INFO ---
+00:03:07,158 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:08,552 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:08,554 root INFO Question 58/100: Which Claude 3 model provides the best balance of intelligence and speed for high-throughput tasks like sales forecasting and targeted marketing?
+00:03:08,554 root INFO Correct: True
+00:03:08,555 root INFO ---
+00:03:10,491 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:11,618 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:11,621 root INFO Question 59/100: How can you calculate the similarity between two Voyage embedding vectors, and what is this equivalent to since Voyage embeddings are normalized to length 1?
+00:03:11,621 root INFO Correct: True
+00:03:11,621 root INFO ---
+00:03:15,646 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:18,325 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:18,327 root INFO Question 60/100: How can using examples in prompts improve Claude's performance on complex tasks?
+00:03:18,327 root INFO Correct: True
+00:03:18,328 root INFO ---
+00:03:21,305 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:23,910 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:23,913 root INFO Question 61/100: What are the two types of content block deltas that can be emitted when streaming responses with tool use, and what does each delta type contain?
+00:03:23,913 root INFO Correct: False
+00:03:23,914 root INFO ---
+00:03:25,309 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:26,763 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:26,766 root INFO Question 62/100: What are two key capabilities of Claude that enable it to build interactive systems and personalized user experiences?
+00:03:26,767 root INFO Correct: False
+00:03:26,767 root INFO ---
+00:03:28,489 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:30,15 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:30,17 root INFO Question 63/100: What are the key event types included in a raw HTTP stream response when using message streaming, and what is the typical order they occur in?
+00:03:30,17 root INFO Correct: True
+00:03:30,18 root INFO ---
+00:03:31,600 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:32,919 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:32,922 root INFO Question 64/100: What is the maximum number of images that can be included in a single request using the Anthropic API compared to the claude.ai interface?
+00:03:32,922 root INFO Correct: True
+00:03:32,922 root INFO ---
+00:03:33,820 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:35,272 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:35,275 root INFO Question 65/100: When Claude's response is cut off due to hitting the max_tokens limit and contains an incomplete tool use block, what should you do to get the full tool use?
+00:03:35,275 root INFO Correct: True
+00:03:35,276 root INFO ---
+00:03:35,810 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:37,537 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:37,539 root INFO Question 66/100: What two steps are needed before running a classification evaluation on Claude according to the documentation?
+00:03:37,540 root INFO Correct: False
+00:03:37,540 root INFO ---
+00:03:39,687 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:40,941 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:40,943 root INFO Question 67/100: How can you use the content parameter in the messages list to influence Claude's response?
+00:03:40,943 root INFO Correct: True
+00:03:40,943 root INFO ---
+00:03:42,494 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:43,752 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:43,754 root INFO Question 68/100: What are two key advantages of prompt engineering over fine-tuning when it comes to model comprehension and general knowledge preservation?
+00:03:43,755 root INFO Correct: True
+00:03:43,755 root INFO ---
+00:03:44,630 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:45,963 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:45,966 root INFO Question 69/100: What are the two main steps to get started with making requests to Claude models on Anthropic's Bedrock API?
+00:03:45,966 root INFO Correct: False
+00:03:45,967 root INFO ---
+00:03:47,434 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:48,567 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:48,569 root ERROR XML parsing error: mismatched tag: line 3, column 420
+00:03:49,721 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:50,849 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:50,851 root INFO Question 71/100: What argument can be passed to the voyageai.Client.embed() method or the Voyage HTTP API to specify whether the input text is a query or a document?
+00:03:50,852 root INFO Correct: True
+00:03:50,852 root INFO ---
+00:03:54,830 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:56,294 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:56,297 root INFO Question 72/100: How do the streaming API delta formats differ between tool_use content blocks and text content blocks?
+00:03:56,297 root INFO Correct: True
+00:03:56,297 root INFO ---
+00:03:57,73 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:58,576 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:03:58,579 root INFO Question 73/100: What are the image file size limits when uploading images to Claude using the API versus on claude.ai?
+00:03:58,579 root INFO Correct: True
+00:03:58,579 root INFO ---
+00:03:59,533 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:00,741 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:00,743 root INFO Question 74/100: What is one key consideration when selecting a Claude model for an enterprise use case that needs low latency?
+00:04:00,743 root INFO Correct: True
+00:04:00,744 root INFO ---
+00:04:01,953 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:03,998 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:04,1 root INFO Question 75/100: What embedding model does Anthropic recommend for code retrieval, and how does its performance compare to alternatives according to Voyage AI?
+00:04:04,1 root INFO Correct: True
+00:04:04,1 root INFO ---
+00:04:05,691 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:07,40 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:07,43 root INFO Question 76/100: What are two ways the Anthropic Cookbook can help developers learn to use Anthropic's APIs?
+00:04:07,43 root INFO Correct: True
+00:04:07,43 root INFO ---
+00:04:08,936 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:10,990 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:10,993 root INFO Question 77/100: How does the size of the context window impact a language model's ability to utilize retrieval augmented generation (RAG)?
+00:04:10,993 root INFO Correct: True
+00:04:10,993 root INFO ---
+00:04:13,698 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:14,957 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:14,960 root INFO Question 78/100: How can the Evaluation tool in Anthropic's Claude platform help improve prompts and build more robust AI applications?
+00:04:14,960 root INFO Correct: True
+00:04:14,960 root INFO ---
+00:04:15,795 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:18,506 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:18,508 root INFO Question 79/100: Which Claude model has the fastest comparative latency according to the comparison tables?
+00:04:18,508 root INFO Correct: True
+00:04:18,509 root INFO ---
+00:04:22,826 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:24,287 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:24,290 root INFO Question 80/100: How can you build up a conversation with multiple turns using the Anthropic Messages API in Python?
+00:04:24,290 root INFO Correct: True
+00:04:24,290 root INFO ---
+00:04:27,597 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:29,811 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:29,814 root INFO Question 81/100: How can using XML tags to provide a specific role or context help improve Claude's analysis of a legal contract compared to not using a role prompt?
+00:04:29,814 root INFO Correct: True
+00:04:29,815 root INFO ---
+00:04:31,831 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:33,217 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:33,220 root INFO Question 82/100: What are the key differences between how Claude 3 Opus and Claude 3 Sonnet handle missing information when making tool calls?
+00:04:33,220 root INFO Correct: True
+00:04:33,220 root INFO ---
+00:04:37,611 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:38,974 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:38,976 root INFO Question 83/100: What steps should be taken to ensure a reliable deployment of an automated ticket routing system using Claude into a production environment?
+00:04:38,977 root INFO Correct: True
+00:04:38,977 root INFO ---
+00:04:43,67 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:44,490 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:44,493 root INFO Question 84/100: How should you evaluate a model's performance on a ticket routing classifier?
+00:04:44,493 root INFO Correct: True
+00:04:44,493 root INFO ---
+00:04:45,626 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:46,726 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:46,729 root INFO Question 85/100: What two methods does Anthropic recommend for learning how to prompt engineer with Claude before diving into the techniques?
+00:04:46,729 root INFO Correct: False
+00:04:46,729 root INFO ---
+00:04:49,744 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:51,208 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:51,210 root INFO Question 86/100: What are the key differences between a pretrained large language model and Claude in terms of their training and capabilities?
+00:04:51,211 root INFO Correct: True
+00:04:51,211 root INFO ---
+00:04:54,899 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:56,279 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:56,282 root INFO Question 87/100: What are some key advantages of using prompt engineering instead of fine-tuning to adapt a pretrained language model for a specific task or domain?
+00:04:56,282 root INFO Correct: True
+00:04:56,283 root INFO ---
+00:04:57,743 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:59,325 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:04:59,327 root INFO Question 88/100: How can you authenticate with GCP before running requests to access Claude models on Vertex AI?
+00:04:59,328 root INFO Correct: True
+00:04:59,328 root INFO ---
+00:05:00,284 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:01,517 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:01,518 root INFO Question 89/100: What new capabilities and features were introduced by Anthropic on May 10th, 2024 and how do they enable users to create and tailor prompts for specific tasks?
+00:05:01,519 root INFO Correct: True
+00:05:01,519 root INFO ---
+00:05:02,194 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:03,620 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:03,623 root INFO Question 90/100: On what date did both the Claude 3.5 Sonnet model and the Artifacts feature in Claude.ai become available?
+00:05:03,623 root INFO Correct: True
+00:05:03,624 root INFO ---
+00:05:04,444 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:05,549 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:05,551 root INFO Question 91/100: When putting words in Claude's mouth to shape the response, what header and value can you use in the request to limit Claude's response to a single token?
+00:05:05,551 root INFO Correct: True
+00:05:05,552 root INFO ---
+00:05:06,634 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:08,94 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:08,96 root INFO Question 92/100: What does the temperature parameter do when working with large language models?
+00:05:08,96 root INFO Correct: True
+00:05:08,97 root INFO ---
+00:05:10,467 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:11,679 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:11,682 root INFO Question 93/100: What are two ways to specify API parameters when calling the Claude API using Claude for Sheets?
+00:05:11,682 root INFO Correct: True
+00:05:11,682 root INFO ---
+00:05:13,826 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:15,895 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:15,897 root INFO Question 94/100: How does prefilling the response with an opening curly brace ({ ) affect Claude's output when extracting structured data from text?
+00:05:15,898 root INFO Correct: True
+00:05:15,898 root INFO ---
+00:05:20,355 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:21,928 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:21,931 root INFO Question 95/100: What are some helpful resources provided by Anthropic to dive deeper into building with images using Claude?
+00:05:21,931 root INFO Correct: True
+00:05:21,932 root INFO ---
+00:05:24,66 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:25,608 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:25,610 root INFO Question 96/100: How do you specify the API key when creating a new Anthropic client in the Python and TypeScript SDK examples?
+00:05:25,611 root INFO Correct: True
+00:05:25,611 root INFO ---
+00:05:27,239 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:28,410 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:28,412 root INFO Question 97/100: What are two key benefits of using the Anthropic Evaluation tool when developing prompts for an AI classification application?
+00:05:28,412 root INFO Correct: True
+00:05:28,413 root INFO ---
+00:05:32,242 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:33,965 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:33,968 root INFO Question 98/100: What are the key differences between a pretrained language model like Claude's underlying model, and the final version of Claude available through Anthropic's API?
+00:05:33,968 root INFO Correct: False
+00:05:33,968 root INFO ---
+00:05:34,704 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:35,827 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:35,829 root INFO Question 99/100: What is the IPv6 address range used by Anthropic?
+00:05:35,829 root INFO Correct: True
+00:05:35,830 root INFO ---
+00:05:37,421 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:38,510 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:05:38,512 root INFO Question 100/100: When using the Python SDK to create a message with Claude, what are two ways you can specify your API key?
+00:05:38,512 root INFO Correct: True
+00:05:38,513 root INFO ---
