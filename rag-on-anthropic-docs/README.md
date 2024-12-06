@@ -2,4 +2,4 @@ This section is inspired by https://github.com/anthropics/anthropic-cookbook/tre
 
 Given the generous licence (MIT), we're reusing the evaluation dataset (very handy) and much (but not all) of the code.
 
-I've also refactored the code since the notebook is quite large and unweildy.
+I've also refactored the code since the original notebook is quite large and unweildy.
